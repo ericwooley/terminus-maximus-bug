@@ -1,0 +1,6 @@
+Reproduce ericwooley/thewooleyway#13
+
+1. Make sure `hugo` is installed.
+2. `git submodule init`
+3. `yarn`
+4. `yarn run start`

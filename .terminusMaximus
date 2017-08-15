@@ -1,0 +1,20 @@
+{
+  "errorHeight": 20,
+  "scripts": {
+    "server": {
+      "screensPerRow": 2,
+      "commands": [
+        {
+          "label": "webpack",
+          "command": "node_modules/.bin/webpack --config=webpack.config.js --watch --debug --verbose --progress --colors",
+          "screenConfig": {}
+        },
+        {
+          "label": "hugo",
+          "command": "hugo server -D",
+          "screenConfig": {}
+        }
+      ]
+    }
+  }
+}
