@@ -8,6 +8,7 @@
   "scripts": {
     "build": "webpack --config=webpack.config.js",
     "start": "node_modules/.bin/termax server",
+    "debug": "node --inspect-brk node_modules/.bin/termax server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack-watcher": "webpack --config=webpack.config.js --watch --debug --verbose --progress --colors"
   },
